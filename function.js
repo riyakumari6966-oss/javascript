@@ -99,14 +99,15 @@ for(let i=1;i<=n;i++){
     arr4[i-1]=i;
 }
 
-// console.log(arr4);
+console.log(arr4);
+//sum of 1 to n number in an arr
+let Sum=arr4.reduce((prev,curr)=>{
+    return prev+curr;
+});
 
-// let Sum=arr4.reduce((prev,curr)=>{
-//     return prev+curr;
-// });
+console.log("sum=",Sum);
 
-// console.log("sum=",Sum);
-
+//factorial of 1 to n 
 let factorial=arr4.reduce((prev,curr)=>{
     return prev*curr;
 });
